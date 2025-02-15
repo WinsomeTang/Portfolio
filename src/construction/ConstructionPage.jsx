@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-import MacIcon from './assets/images/macIcon.png';
-import LinkedinIcon from './assets/images/linkedinIcon.png';
-import GithubIcon from './assets/images/githubIcon.png';
-import DevpostIcon from './assets/images/devpostIcon.png';
-
+import React, { useEffect, useRef } from 'react'
+import MacIcon from '../assets/images/macIcon.png'
+import LinkedinIcon from '../assets/images/linkedinIcon.png'
+import GithubIcon from '../assets/images/githubIcon.png'
+import DevpostIcon from '../assets/images/devpostIcon.png'
+import '../construction/ConstructionPage.css';
 const ConstructionPage = () => {
     const audioRef = useRef(null);
 
@@ -41,7 +41,7 @@ const ConstructionPage = () => {
 
             {/* Main heading */}
             <h1 className="text-2xl font-bold text-center">
-                Hey! This website is still under construction
+                Hey! This website is still under construction.
             </h1>
 
             {/* Classic Mac icon */}
