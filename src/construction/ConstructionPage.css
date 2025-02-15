@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ChicagoFLF";
-  src: url("src/assets/fonts/ChicagoFLF.ttf");
+  src: url("/src/assets/fonts/ChicagoFLF.ttf") format("truetype");
 }
 
 :root {
@@ -12,7 +12,6 @@
 }
 
 body {
-  font-family: "ChicagoFLF";
   margin: 0;
   display: flex;
   justify-content: center;
