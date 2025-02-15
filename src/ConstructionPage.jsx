@@ -28,7 +28,7 @@ const ConstructionPage = () => {
     }, []);
 
     const openResume = () => {
-        window.open('src/assets/Winsome_Tang_Resume.pdf', '_blank'); // Opens the resume in a new tab
+        window.open('/Winsome_Tang_Resume.pdf', '_blank'); // Opens the resume in a new tab
     };
 
     return (
