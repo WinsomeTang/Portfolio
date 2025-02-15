@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ChicagoFLF";
-  src: url("../assets/fonts/ChicagoFLF.ttf");
+  src: url("src/assets/fonts/ChicagoFLF.ttf");
 }
 
 :root {
@@ -20,6 +20,13 @@ body {
   min-height: 100vh;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
 h1 {
   font-size: 1.5em;
   line-height: 1.1;
@@ -36,6 +43,8 @@ button {
   position: relative;
   box-shadow: 4px 4px 0 #000;
   transition: transform 0.1s, box-shadow 0.1s;
+  display: block;
+  margin: 0 auto;
 }
 
 button:hover {
